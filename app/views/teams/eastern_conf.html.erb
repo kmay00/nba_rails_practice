@@ -1,0 +1,13 @@
+<h1>Eastern Conference Teams</h1>
+
+<ol>
+  <% @eastern.each do |team| %>
+    <li><%= team.nickname %></li>
+  <% end %>
+</ol>
+
+<ol>
+  <% @eastern_win.each do |team| %>
+    <li><%= team.nickname %></li>
+  <% end %>
+</ol>
